@@ -46,7 +46,7 @@ That's all, folks!
 
 Vamos praticar like a boss
 
-![Praticar](https://www.gif-vif.com/bollywood-drama-fight "Bollywood Norris.")
+![Praticar](https://i.giphy.com/media/dZfYddDBa5hDO/giphy-downsized-large.gif "Bollywood Norris.")
 
 
 Salut!
