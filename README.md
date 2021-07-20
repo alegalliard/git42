@@ -31,12 +31,8 @@ cd git42/
 
 ### Clonando o repositório
 
-1. Crie uma pasta com o seu login e um arquivo `main.c` dentro. Se ainda não souber como faz, copie e renomeie a pata `__baseC`;
-1. Faça uma nova branch com seu login da 42 e mude para ela;
 1. Envie o seu login do Github no privado do Discord para o meu login (adias-de) para que eu possa te enviar um convite;
-1. Aceite o convite pra colaborar com este repositório;
-1. Crie uma branch com o nome branch-<seu-login>;
-1. Faça o seu primeiro commit e push.
+1. 😱**Importante:** aceite o convite pra colaborar com este repositório antes de seguir para os próximos passos;
 
 ```sh
 git checkout -b branch-<seu-login>
@@ -44,14 +40,15 @@ git add .
 git commit -m "<Sua mensagem>"
 git push origin branch-<seu-login>
 ```
-
-Se quiser, você pode commitar também um arquivo txt dentro da sua pasta chamado `duvidas.txt`, listando suas perguntas, fazer um push delas.
+1. Crie uma branch com o nome branch-<seu-login>;
+1. Crie uma pasta com o seu login e um arquivo `main.c` dentro. Se ainda não souber como faz o .c, faça uma cópia da pasta `__baseC` e renomeie-a com o seu login;
+1. Faça o seu primeiro commit e push na sua branch.
 
 **Importante:** no Github a branch padrão é o **main** ao invés da master. Iremos trabalhar em branches isoladas inicialmente.
 
 That's all, folks!
 
-Vamos praticar like a boss
+Vamos praticar like a boss.
 
 ![Praticar](https://i.giphy.com/media/dZfYddDBa5hDO/giphy-downsized-large.gif "Bollywood Norris.")
 
