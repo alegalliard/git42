@@ -40,7 +40,7 @@ git add .
 git commit -m "<Sua mensagem>"
 git push origin branch-<seu-login>
 ```
-1. Crie uma branch com o nome branch-<seu-login>;
+1. Crie uma branch com o nome branch-< seu-login >;
 1. Crie uma pasta com o seu login e um arquivo `main.c` dentro. Se ainda não souber como faz o .c, faça uma cópia da pasta `__baseC` e renomeie-a com o seu login;
 1. Faça o seu primeiro commit e push na sua branch.
 
