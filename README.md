@@ -11,7 +11,7 @@ Esse é um projetinho maroto pra galera da 42 testar o Git para além do add, co
 1. Crie uma conta no site do Github https://github.com/.
 1. Agora será necessário configurar uma uma chave SSH pra poder fazer commits nesse repositório, seguindo os passo a seguir:
 	1. Clique no seu perfil (canto superior direito) pra abrir o menu;
-	1. Vá em [https://github.com/settings/profile](Settings) > [https://github.com/settings/keys](SSH and GPG keys) > [https://github.com/settings/keys](New SSH key) no para adicionar uma chave SSH;
+	1. Vá em [Settings](https://github.com/settings/profile), [SSH and GPG keys](https://github.com/settings/keys), [New SSH key](https://github.com/settings/keys) no para adicionar uma chave SSH;
 	1. Volte pro terminal da 42 rode o comando `cat ~/.ssh/id_rsa.pub` para exibir a chave ssh, copie eu conteúdo (desde o ssh-rsa até o fim do e-mail. O conteúdo deve ficar algo como ssh-rsa ABC...[sopa de letrinhas linguiçônica]...Wxyz== <email@email>);
 	1. De volta ao painel do Git, dê um nome para chave e cole o conteúdo da chave ssh no campo de texto;
 	1. Volte para o terminal da intra e teste se a chave foi configurada com sucesso seguindo o comando `ssh -T git@github.com`.
@@ -53,6 +53,6 @@ Salut!
 
 ### Documentação de suporte
 
-* [https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/checking-for-existing-ssh-keys](Verificando se existe uma chave ssh na sua máquina) 
-* [https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent](Como gerar uma chave SSH do zero);
-* [https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account](Como adicionar uma chave SSH no painel do Github)
+* [Verificando se existe uma chave ssh na sua máquina](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/checking-for-existing-ssh-keys) 
+* [Como gerar uma chave SSH do zero](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent);
+* [Como adicionar uma chave SSH no painel do Github](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
