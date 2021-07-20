@@ -4,6 +4,23 @@ Esse é um projetinho maroto pra galera da 42 testar o Git para além do add, co
 
 ## Como usar esse projeto:
 
+### Usando o Github do zero
+
+É pra vida também, hihihi.
+
+1. Crie uma conta no site do Github https://github.com/.
+1. Agora será necessário configurar uma uma chave SSH pra poder fazer commits nesse repositório, seguindo os passo a seguir:
+	1. Clique no seu perfil (canto superior direito) pra abrir o menu;
+	1. Vá em [https://github.com/settings/profile](Settings) > [https://github.com/settings/keys](SSH and GPG keys) > [https://github.com/settings/keys](New SSH key) no para adicionar uma chave SSH;
+	1. Volte pro terminal da 42 rode o comando `cat ~/.ssh/id_rsa.pub` para exibir a chave ssh, copie eu conteúdo (desde o ssh-rsa até o fim do e-mail. O conteúdo deve ficar algo como ssh-rsa ABC...[sopa de letrinhas linguiçônica]...Wxyz== <email@email>);
+	1. De volta ao painel do Git, dê um nome para chave e cole o conteúdo da chave ssh no campo de texto;
+	1. Volte para o terminal da intra e teste se a chave foi configurada com sucesso seguindo o comando `ssh -T git@github.com`.
+
+
+
+
+
+
 1- Dê um clone nesse repositório no seu terminal e entre na pasta.
 
 ```sh
@@ -11,9 +28,11 @@ git clone git@github.com:alegalliard/git42.git
 cd git42/
 ```
 
-2- Crie uma pasta com o seu login e um arquivo `main.c` dentro. Se ainda não souber como faz, copie e renomeie a pata `__baseC`;
 
-3- Faça o commit e o push dele.
+### Clonando o repositório
+
+1. Crie uma pasta com o seu login e um arquivo `main.c` dentro. Se ainda não souber como faz, copie e renomeie a pata `__baseC`;
+1. Faça o seu primeiro commit e o push dele. **Importante: no Github a branch padrão é o main** ao invés da master;
 
 ```sh
 git add .
@@ -30,4 +49,10 @@ Vamos praticar like a boss
 ![Praticar](https://www.gif-vif.com/bollywood-drama-fight "Bollywood Norris.")
 
 
-Salut
+Salut!
+
+### Documentação de suporte
+
+* [https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/checking-for-existing-ssh-keys](Verificando se existe uma chave ssh na sua máquina) 
+* [https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent](Como gerar uma chave SSH do zero);
+* [https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account](Como adicionar uma chave SSH no painel do Github)
