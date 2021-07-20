@@ -18,7 +18,7 @@ cd git42/
 ```sh
 git add .
 git commit -m "<Sua mensagem>"
-git push origin master
+git push origin main
 ```
 
 Se quiser, você pode commitar também um arquivo txt dentro da sua pasta chamado `duvidas.txt`, listando suas perguntas, fazer um push delas.
