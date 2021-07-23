@@ -48,5 +48,22 @@ int main(void)
 	// write(1, ptr06+'0', 2); //retorna �'
 	// write(1, ptr06, 2); //retorna 0
 
+	//Somando pointer:
+	// "pointer pra variáve +1 não é +1 byte"
+
+	int aa;
+	int bb;
+	int *ptr00;
+
+	bb=23;
+	aa=12;
+	ptr = &b;
+	printf("%p\n", ptr00);
+	printf("%p\n", &bb);
+	printf("%p\n", ptr -1);
+	printf("%p\n", *(ptr - 1));
+	//*(ptr - 1) = 78;
+	printf("%p\n", &aa);
+
 	return(0);
 }
