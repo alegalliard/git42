@@ -1,0 +1,3 @@
+LISTA=`ls -u -p -m`
+
+echo $LISTA
