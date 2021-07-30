@@ -58,6 +58,12 @@ Vamos praticar like a boss
 
 Salut!
 
+
+# Coisas a mais nesse repositório
+
+Exercícios da 42 com testes da fake moulinette
+https://github.com/eduardomosko/fake-moulinnete/, lembrar de fazer pull requests depois.
+
 ### Documentação de suporte
 
 * [Verificando se existe uma chave ssh na sua máquina](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/checking-for-existing-ssh-keys) 
